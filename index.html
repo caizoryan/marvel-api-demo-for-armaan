@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<style>
+  * {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    jsutify-content: center;
+    align-items: center;
+    transition: ease all 100ms;
+  }
+
+  .card img {
+    width: 80%;
+  }
+
+  .card:hover {
+    transform: scale(1.06);
+  }
+</style>
+
+<body>
+  <div class="container"></div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
